@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compras_AA</title>
+    <link rel="stylesheet" href="Styles2.css">
+</head>
+<body>
+    <header>
+        <h1>Alcancías alcanzables</h1>
+        <div id="En1"><a href="productos.html">Más Productos</a></div>
+        <div id="En2"><a href="compras_p.html">Compras Personalizadas</a></div>
+        <div id="En3"><a href="index.html">Producto Estrella</a></div>
+    </header>
+</body>
+<section>
+    <p><b>Introduce dentro de estos campos lo solicitado para tu compra</b></p>
+    <form action="/formulario" method="post">
+        <label for="nombre">Introduce tu nombre</label><br>
+        <input type="text" name="Nombre del cliente" id="nombre"><br>
+        <label for="correo">Introduce tu correo electrónico</label><br>
+        <input type="email" name="Correo del cliente" id="correo"><br>
+        <label for="ubicación">¿A dondé llegará el pedido?</label><br>
+        <input type="text" name="Ubicación" id="ubicación"><br>
+        <label for="compra">Selecciona una opción de compra</label><br>
+        <select name="Opción de compra" id="compra">
+            <option value="Súper_cochinin">Súper cochinin</option>
+            <option value="Cochinito_básico">Cochinito básico</option>
+            <option value="Caballito">Caballito</option>
+            <option value="Perrito">Perrito</option>
+            <option value="Angelito">Angelito</option>
+            <option value="Balón">Balón</option>
+            <option value="Pedido_especial">Pedido especial</option>
+        </select><br>
+        <label for="cantidad">¿Cuántos del producto quiere?</label><br>
+        <input type="text" name="Cantidad" id="cantidad"><br>
+        <label for="Personalización">¿Acaso elegiste un pedido especial? Ingresa aqui la descripción de tu pedido</label><br>
+        <textarea name="Pedido_personalizado" id="Personalización"></textarea><br>
+        <button type="reset">Borrar todo</button>
+        <button type="submit">Enviar tu pedido</button>
+
+    </form>
+</section>
+<footer>
+    <p>Contáctanos ahora mismo</p>
+    
+    <a class="Enlace_general" href="https://wa.me/1234567890" target="_blank">Envía un mensaje</a>
+    <p>&copy;Todos los derechos rervados</p>
+</footer>
+
+</html>

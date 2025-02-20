@@ -1,0 +1,99 @@
+body {
+    background-color: rgb(4, 179, 4);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: greenyellow;
+    padding: 4rem;
+}
+header h1 {
+    text-align: center;
+    color: rgb(113, 128, 50);
+}
+
+#En1 {
+    float: left;
+    background-color: rgb(228, 255, 107);
+    border: 2px solid #000000;
+    border-radius: 4px;
+    padding: 1rem;
+    
+}
+
+#En2 {
+    float: left;
+    margin-left: 21.5rem;
+    background-color: rgb(228, 255, 107);
+    border: 2px solid #000000;
+    border-radius: 4px;
+    padding: 1rem;
+    
+}
+#En3 {
+    float: right;
+    background-color: rgb(228, 255, 107);
+    border: 2px solid #000000;
+    border-radius: 4px;
+    padding: 1rem;
+}
+
+#DT {
+    font-size: larger;
+    text-align: center;
+    color: wheat;
+}
+
+#SC1 {
+    padding: 1rem;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    background-color: rgb(205, 212, 98);
+    border: 5px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+}
+
+#DT2 {
+    text-align: center;
+    color: wheat;
+    font-size: larger;
+}
+
+#SC2 {
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 4px;
+    color: rgb(82, 80, 77);
+    font-size: larger;
+}
+
+#Comprar {
+    text-align: center;
+    color: wheat;
+    font-size: larger;
+
+}
+
+footer {
+    text-align: right;
+    margin: 2rem;
+    color: wheat;
+    font-size: larger;
+}
+
+body a:hover {
+    cursor: pointer;
+    color: black;
+    transition: 0.5s;
+    
+}
+
+a.Enlace_general {
+    background-color: rgb(228, 255, 107);
+    border: 2px solid #000000;
+    border-radius: 4px;
+    padding: 1rem;
+}
